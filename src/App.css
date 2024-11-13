@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px rgb(110, 110, 110, 0.2);
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group input::placeholder {
+  font-size: 1rem;
+}
+
+.form-group input:focus {
+  border: 1px solid #00acee;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #121212;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #00acee;
+}
+
+.modification-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10rem;
+}
+
+.modification-table th,
+.modification-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.modification-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.modification-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
